@@ -13,7 +13,7 @@ SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5366284852").split()))
 LOGGER = int(getenv("LOGGER","-1001804302628")) 
 OWNER = int(getenv("OWNER_ID","5366284852")) 
 NAME = getenv("ALIVE_NAME","ANIRUDH OP")
-OWN_USERNAME= getenv("OWN_USERNAME",KATTAR_HINDU_OP")
+OWN_USERNAME= getenv("OWN_USERNAME","@KATTAR_HINDU_OP")
 ALIVE_PIC = getenv("ALIVE_PIC","https://te.legra.ph/file/a66beb72764269e744911.jpg") 
 
 # FOR SPAMBOT

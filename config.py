@@ -7,14 +7,14 @@ load_dotenv()
 
 # FOR CODES
 
-API_ID = int(getenv("API_ID")) 
-API_HASH = getenv("API_HASH") 
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5391883908").split()))
-LOGGER = int(getenv("LOGGER", None)) 
-OWNER = int(getenv("OWNER_ID")) 
-NAME = getenv("ALIVE_NAME")
-OWN_USERNAME= getenv("OWN_USERNAME")
-ALIVE_PIC = getenv("ALIVE_PIC") 
+API_ID = int(getenv("API_ID","2302493")) 
+API_HASH = getenv("API_HASH","1bf8344851a88633343fde339f2eee20) 
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5366284852").split()))
+LOGGER = int(getenv("LOGGER","-1001804302628")) 
+OWNER = int(getenv("OWNER_ID","5366284852")) 
+NAME = getenv("ALIVE_NAME","ANIRUDH OP")
+OWN_USERNAME= getenv("OWN_USERNAME",KATTAR_HINDU_OP")
+ALIVE_PIC = getenv("ALIVE_PIC","https://te.legra.ph/file/a66beb72764269e744911.jpg") 
 
 # FOR SPAMBOT
 
